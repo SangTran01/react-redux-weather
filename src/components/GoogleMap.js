@@ -10,6 +10,7 @@ class GoogleMap extends Component {
 	render() {
 	return (
 		<GoogleMapReact
+			apiKey={'AIzaSyCNOYlxNWpeHvXXupgZiouXIg2UoSVZPfg'}
 			defaultCenter={[this.props.lat, this.props.lon]}
 			defaultZoom={10}
 		>
